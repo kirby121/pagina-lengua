@@ -1,0 +1,408 @@
+* {
+  transition: 0.5s;
+  margin: 0;
+}
+.fondo {
+  transition: 0.5s;
+  background-color: rgb(233, 233, 233);
+  height: 6000px;
+}
+.fondo-oscuro {
+  transition: 0.5s;
+  height: 6000px;
+  background-color: rgb(41, 41, 41);
+}
+nav {
+  transition: 0.5s;
+  text-align: right;
+  margin: 30px;
+  margin-right: 110px;
+}
+.navegacion-ancla {
+  transition: 0.5s;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+  margin: 10px 20px;
+  font-weight: 900;
+}
+.navegacion-ancla-cambio {
+  transition: 0.5s;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+  margin: 10px 20px;
+  font-weight: 900;
+}
+.navegacion-ancla-cambio-seleccion {
+  transition: 0.5s;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(5, 187, 211);
+  margin: 10px 20px;
+  font-weight: 900;
+}
+.navegacion-ancla:hover {
+  transition: 0.5s;
+  color: rgb(5, 187, 211);
+}
+.navegacion-ancla-cambio:hover {
+  transition: 0.5s;
+  color: rgb(5, 187, 211);
+}
+.principal-texto {
+  transition: 0.5s;
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 210px;
+}
+.principal-titulo {
+  transition: 0.5s;
+  font-size: 80px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 900;
+  vertical-align: middle;
+}
+.principal-titulo-oscuro {
+  transition: 0.5s;
+  font-size: 80px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 900;
+  vertical-align: middle;
+  color: rgb(20, 155, 173);
+}
+.principal-subtitulo {
+  transition: 0.5s;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-align: center;
+  width: 630px;
+}
+.principal-subtitulo-oscuro {
+  transition: 0.5s;
+  margin-top: 30px;
+  width: 630px;
+  font-size: 30px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(128, 128, 128);
+}
+.principal-imagen {
+  transition: 0.5s;
+  margin: -60px 100px 0 100px;
+  background-image: url("https://www.adhesivosnatos.com/wp-content/uploads/2018/01/pegatina-juegos-del-hambre-sinsajo-3.png");
+  width: 600px;
+  height: 600px;
+  float: right;
+}
+
+/*Significado*/
+
+.significado {
+  transition: 0.5s;
+  width: auto;
+  background-color: rgb(218, 218, 218);
+  margin-top: 220px;
+  text-align: center;
+  padding: 100px 50px;
+}
+.significado-oscuro {
+  transition: 0.5s;
+  width: auto;
+  background-color: rgb(51, 51, 51);
+  margin-top: 220px;
+  text-align: center;
+  padding: 100px 50px;
+}
+.significado-titulo {
+  transition: 0.5s;
+  font-size: 60px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 900;
+  vertical-align: middle;
+  margin-bottom: 50px;
+  color: rgb(87, 87, 87);
+}
+.significado-titulo-oscuro {
+  transition: 0.5s;
+  font-size: 60px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 900;
+  vertical-align: middle;
+  margin-bottom: 50px;
+  color: rgb(153, 153, 153);
+}
+.significado-texto {
+  transition: 0.5s;
+  font-size: 30px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(87, 87, 87);
+}
+.significado-texto-oscuro {
+  transition: 0.5s;
+  font-size: 30px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(128, 128, 128);
+}
+
+/*Libros*/
+
+.libros {
+  transition: 0.5s;
+  width: auto;
+  height: 500px;
+  text-align: center;
+}
+.libros-oscuro {
+  transition: 0.5s;
+  width: auto;
+  height: 500px;
+  text-align: center;
+  filter: grayscale(100%);
+}
+.libro {
+  transition: 0.5s;
+  width: auto;
+  text-align: center;
+  transition: 0.5s;
+  background-color: rgb(218, 218, 218);
+  padding: 30px 0;
+  margin-bottom: -30px;
+  height: 430px;
+}
+.libro-oscuro {
+  transition: 0.5s;
+  width: auto;
+  text-align: center;
+  transition: 0.5s;
+  background-color: rgb(61, 61, 61);
+  padding: 30px 0;
+  margin-bottom: -30px;
+  height: 420px;
+}
+.libro1-oscuro {
+  transition: 0.5s;
+  width: auto;
+  text-align: center;
+  background-color: rgb(61, 61, 61);
+  padding: 30px 0;
+  margin-bottom: -30px;
+  height: 450px;
+}
+.libro1 {
+  height: 450px;
+  transition: 0.5s;
+  width: auto;
+  text-align: center;
+  transition: 0.5s;
+  background-color: rgb(218, 218, 218);
+  padding: 30px 0;
+  margin-bottom: -30px;
+}
+.libro-claro {
+  transition: 0.5s;
+  width: auto;
+  text-align: center;
+  transition: 0.5s;
+  padding: 30px 0;
+}
+.libro-claro1 {
+  transition: 0.5s;
+  width: auto;
+  text-align: center;
+  transition: 0.5s;
+  padding: 30px 0;
+  height: 430px;
+}
+.libro-texto {
+  width: 50%;
+}
+.libro-titulo {
+  margin-top: 50px;
+  transition: 0.5s;
+  font-size: 40px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 10px;
+  font-weight: 900;
+  vertical-align: middle;
+  margin-bottom: 50px;
+  color: rgb(119, 119, 119);
+}
+.libro-titulo1 {
+  margin-top: 50px;
+  transition: 0.5s;
+  font-size: 40px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 10px;
+  font-weight: 900;
+  vertical-align: middle;
+  margin-bottom: 50px;
+  color: rgb(119, 119, 119);
+}
+.libro-titulo1-oscuro {
+  margin-top: 50px;
+  transition: 0.5s;
+  font-size: 40px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 10px;
+  font-weight: 900;
+  vertical-align: middle;
+  margin-bottom: 50px;
+  color: rgb(134, 134, 134);
+}
+.libro-titulo2 {
+  margin-top: 50px;
+  transition: 0.5s;
+  font-size: 40px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 10px;
+  font-weight: 900;
+  vertical-align: middle;
+  margin-bottom: 50px;
+  color: rgb(119, 119, 119);
+}
+.libro-titulo2-oscuro {
+  margin-top: 50px;
+  transition: 0.5s;
+  font-size: 40px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 10px;
+  font-weight: 900;
+  vertical-align: middle;
+  margin-bottom: 50px;
+  color: rgb(134, 134, 134);
+}
+.libro-subtitulo {
+  transition: 0.5s;
+  font-size: 30px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(128, 128, 128);
+  margin-left: 51px;
+}
+.libro-subtitulo1 {
+  transition: 0.5s;
+  font-size: 30px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(128, 128, 128);
+  margin-left: 51px;
+}
+.libro-subtitulo2 {
+  transition: 0.5s;
+  font-size: 30px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(128, 128, 128);
+  margin-left: 51px;
+}
+.libro-subtitulo1-oscuro {
+  transition: 0.5s;
+  font-size: 30px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(87, 87, 87);
+  margin-left: 51px;
+  font-weight: 600;
+}
+.libro-subtitulo2-oscuro {
+  transition: 0.5s;
+  font-size: 30px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-align: center;
+  color: rgb(87, 87, 87);
+  font-weight: 600;
+  margin-left: 51px;
+}
+.libro-imagen {
+  width: 40%;
+  margin-left: 500px;
+  opacity: 0.5;
+  margin: auto;
+}
+.libro-imagen-oscuro {
+  width: 40%;
+  margin-left: 500px;
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+.libro-imagen-png {
+  width: 500px;
+  height: auto;
+  display: inline-flex;
+  margin-left: 500px;
+  margin-top: -500px;
+}
+.libro-imagen-png1 {
+  width: 500px;
+  height: auto;
+  display: inline-flex;
+  margin-left: 500px;
+  margin-top: -425px;
+}
+.libro-imagen-png2 {
+  width: 500px;
+  height: auto;
+  display: inline-flex;
+  margin-left: 500px;
+  margin-top: -390px;
+}
+
+/*Relacion*/
+.relacion {
+  padding: 50px 0;
+}
+.relacion-oscuro {
+  background-color: rgb(34, 34, 34);
+  padding: 50px 0;
+}
+.margen {
+  margin-top: 1560px;
+  text-align: center;
+  color: rgb(139, 139, 139);
+}
+.otramargen {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 25px;
+  line-height: 35px;
+  color: rgb(117, 117, 117);
+}
+.alineado {
+  text-align: center;
+  color: rgb(139, 139, 139);
+}
+.injusticia {
+  display: block;
+  width: 400px;
+  margin: 80px auto;
+  opacity: 0.5;
+}
